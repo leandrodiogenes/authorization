@@ -13,6 +13,6 @@ trait HasPermissions
      */
     public function permissions()
     {
-        return $this->belongsToMany(Authorization::permissionModel());
+        return $this->belongsToMany(Authorization::permissionModel())->withTimestamps();
     }
 }

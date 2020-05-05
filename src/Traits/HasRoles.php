@@ -13,6 +13,6 @@ trait HasRoles
      */
     public function roles()
     {
-        return $this->belongsToMany(Authorization::roleModel());
+        return $this->belongsToMany(Authorization::roleModel())->withTimestamps();
     }
 }
