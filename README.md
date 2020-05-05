@@ -14,7 +14,7 @@ An easy, native role / permission management system for Laravel.
 
 To get started, install Authorization via the Composer package manager:
 
-    composer require larapacks/authorization
+    composer require leandrodiogenes/authorization
 
 The Authorization service provider registers its own database migration directory
 with the framework, so you should migrate your database after installing the
