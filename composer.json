@@ -1,5 +1,5 @@
 {
-  "name": "larapacks/authorization",
+  "name": "leandrodiogenes/authorization",
   "description": "Native Laravel Authorization.",
   "keywords": ["authorization", "laravel", "permissions", "roles", "acl"],
   "license": "MIT",
